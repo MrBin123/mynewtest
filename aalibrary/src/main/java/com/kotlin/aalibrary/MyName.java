@@ -1,5 +1,8 @@
 package com.kotlin.aalibrary;
 
+import android.content.Context;
+import android.widget.Toast;
+
 /**
  * @author: jiangbin
  * @date: 2020/4/30
@@ -58,5 +61,9 @@ public class MyName {
 
     public static void setF(String f) {
         F = f;
+    }
+
+    public void hello(Context context) {
+        Toast.makeText(context, "我是不是最疼爱的人", Toast.LENGTH_SHORT).show();
     }
 }
