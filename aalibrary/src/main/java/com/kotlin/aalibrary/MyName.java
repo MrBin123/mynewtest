@@ -63,7 +63,11 @@ public class MyName {
         F = f;
     }
 
-    public void hello(Context context) {
+    public static void hello(Context context) {
         Toast.makeText(context, "我是不是最疼爱的人", Toast.LENGTH_SHORT).show();
+    }
+
+    public static void hellohello(Context context) {
+        Toast.makeText(context, "我是不是最疼爱的人hello", Toast.LENGTH_SHORT).show();
     }
 }
