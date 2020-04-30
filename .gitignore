@@ -20,6 +20,7 @@
 .idea/inspectionProfiles/
 .idea/misc.xml
 .idea/runConfigurations.xml
+
 # Built application files
 *.apk
 *.aar
